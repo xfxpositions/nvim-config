@@ -1,0 +1,17 @@
+{
+	"zig.enabled": true,
+	"zig.startUpMessage": true,
+	"zig.path": "zls.exe",
+	"zig.debugLog": false,
+	"coc.preferences.hoverTarget": "float",
+	"coc.prefences.hoverTarget":"echo",
+	"coc.prefences.hoverTarget":"preview",
+	"suggest.floatEnable": true,
+	"eslint.packageManager": "yarn",
+	"eslint.nodePath": ".yarn/sdks",
+	"workspace.workspaceFolderCheckCwd": false,
+	"rust-analyzer.enable": true,
+	"rust-analyzer.cargo.autoreload": true,
+	"rust-analyzer.checkOnSave": true,
+	"rust-analyzer.diagnostics.enable": true	
+}
