@@ -103,3 +103,8 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+
+" Indent
+set autoindent
+set smartindent
+
