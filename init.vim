@@ -3,8 +3,10 @@ call plug#begin()
 " zig
 Plug 'ziglang/zig.vim'
 
+" Lsp Format
 Plug 'lukas-reineke/lsp-format.nvim'
 
+" Best color scheme ever made
 Plug 'https://github.com/ellisonleao/gruvbox.nvim'
 
 " Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
@@ -44,6 +46,10 @@ call plug#end()
 set number
 colorscheme gruvbox
 
+" Indent
+set autoindent
+set smartindent
+
 " Clipboard for windows
 set clipboard+=unnamedplus
 
@@ -78,6 +84,7 @@ let g:coc_snippet_prev = '<c-k>'
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
 
+" Idk what's this
 nmap <silent> <C-s> <Plug>(coc-range-select)
 xmap <silent> <C-s> <Plug>(coc-range-select)
 
@@ -103,8 +110,4 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
-
-" Indent
-set autoindent
-set smartindent
 
