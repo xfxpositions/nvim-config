@@ -14,4 +14,11 @@ i guess that's it, sorry.
 
 
 ## Installation
-``` i'm going to add tomorrow. if you're still seeing this, open a pr or issue.```
+### Clone the repository to your nvim conf
+- For windows -> User\\AppData\\Local\\nvim
+- Linux & Macos -> ~./config
+
+### Install Vim-Plug
+https://github.com/junegunn/vim-plug#installation
+
+and that's it, you're all set, Thanks for the installation, could you leave a star?
